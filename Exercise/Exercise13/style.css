@@ -1,0 +1,72 @@
+
+.container{
+    margin-top:50px;
+    margin-left: 50px;
+    width:80vw;
+    height: 110px;
+    background-color: black;
+    border: 5px solid transparent;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail{
+    left : 0;
+    width: 17vw;
+    height: 95%;
+    margin: 3px 4px 1px 2px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.thumbnail .duration{
+    position: absolute;
+    /* height: 3.50px;
+    width: 7px; */
+    bottom: 7px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 3px 6px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.title{
+    margin: 3px 4px 1px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subelements{
+    font-weight: 300;
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    font-size: 15px ;
+}
+.coursename{
+    margin-right: 4px;
+}
+.svg{
+    fill: white;
+    width: 10px;
+    height: 10px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+}
+
+.svg2{
+    margin-top: 6px;
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+/* .thumbnail img{
+    width: auto;
+    height: 100%;
+} */

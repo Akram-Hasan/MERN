@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: green;
+}
+
+/* .loading-dots {
+    display: inline-block;
+} */
+
+/* .loading-dots span {
+    opacity: 1; /* Start hidden */
+    /* animation: showDots 1.5s infinite; */
+/* } */ 
+
+/* .loading-dots span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.loading-dots span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.loading-dots span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes showDots {
+    0%, 100% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
+
+.element{
+    display: flex;
+
+}
+.dot-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 9px;
+}
+
+.dot {
+    display: inline-block;
+    opacity: 0;
+    animation: dot-appear 1s forwards;
+}
+
+.dot:nth-child(0) {
+    animation-delay: 0s; /* Adjust delay to control the appearance */
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 1s;
+}
+
+@keyframes dot-appear {
+    /* from {
+        opacity: 0;
+    } */
+    100% {
+        opacity: 1;
+    }
+}
+
+/* .dot {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2px;  
+    opacity: 0; /* Start hidden */
+    /* animation: dot-appear 1.5s forwards; Use 'forwards' to keep the final state */
+/* }
+
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes dot-appear {
+    100% {
+        opacity: 1;
+        transform: scale(0); Optional: scale up effect
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1); Optional: scale up effect
+    }
+}  */
