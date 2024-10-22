@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img width="500" src="image1.png">
+    <form action="/submit" method="post">
+        <div>
+        <label for="name">Name:
+        </label>
+        <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="city">Select City:
+            </label>
+            <select name="City">
+                <option value="Delhi">Delhi</option>
+                <option value="Bihar">Bihar</option>
+                <option value="UP">UP</option>
+                <option value="Haryana">Haryana</option>
+          </select>
+        </div>
+        
+        <div>
+            <label for pincode>Pincode:</label>
+            <input type="number" id="pincode" name="pincode" required>
+        </div>
+        <div>
+            <label for="comment">Enter Your Comment:</label>
+            <textarea name="comment" rows="4" cols="50">
+          </textarea>
+        </div>
+        <div>
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </div>
+      </form>
+</body>
+</html>
